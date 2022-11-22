@@ -1,0 +1,10 @@
+^C:\USERS\KEVIN\DOCUMENTS\CODING PROJECTS\OPENCV\DIGIT_RECOG\BUILD\CMAKEFILES\0477749CC48586F4E32F087CEA840499\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog" "-BC:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build/Chapter6.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

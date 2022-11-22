@@ -1,0 +1,10 @@
+^C:\USERS\KEVIN\DOCUMENTS\CODING PROJECTS\OPENCV\EROSION\BUILD\CMAKEFILES\1AFBCE1D54E40E4925F32D2628EE9ED4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kevin/Documents/Coding Projects/Opencv/Erosion" "-BC:/Users/kevin/Documents/Coding Projects/Opencv/Erosion/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/kevin/Documents/Coding Projects/Opencv/Erosion/build/Chapter6.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build/CMakeFiles/traindigits.dir
+C:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build/CMakeFiles/ZERO_CHECK.dir

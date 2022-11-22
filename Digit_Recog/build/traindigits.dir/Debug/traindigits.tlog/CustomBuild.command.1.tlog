@@ -1,0 +1,10 @@
+^C:\USERS\KEVIN\DOCUMENTS\CODING PROJECTS\OPENCV\DIGIT_RECOG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog" "-BC:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build" --check-stamp-file "C:/Users/kevin/Documents/Coding Projects/Opencv/Digit_Recog/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
